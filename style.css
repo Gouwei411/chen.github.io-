@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  .box{
+    width: 100%;
+    height: 600px;
+    max-width: 900px;
+    background:linear-gradient(to bottom ,#dedbfa, rgb(255, 255, 255))
+  }
+  .inp{
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .bbnx{
+    width: 20em;
+height: 4em;
+border-radius: 8px;
+border: none;
+margin: 21px;
+text-align: center;
+  }
+  .zxcvbnm{
+display: flex;
+justify-content: space-around;
+  }
+  input[type="checkbox"] {  
+transform: scale(1.5);  
+background-color: #fff;
+}
+a{
+text-decoration: none;
+color: black;
+}
+#login-box{
+width: 20em;
+height: 4em;
+background-color: #79c6fa;
+color: #fff;
+border: none;
+text-align: center;
+border-radius: 8px;
+position: absolute;
+    top: 66%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.kjfs{
+width: 100%;
+position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.kjfs img{
+width:35px
+}
+ul{
+margin: 0;
+padding: 0;
+display: flex;
+list-style-type: none;
+justify-content: space-around;
+}
+ul li a{
+display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.xxx{
+display: flex;
+align-items: center;
+}
